@@ -2,10 +2,7 @@
   "name": "rkmsolucoesjuridicas",
   "description": "LandPage de para divulgação de um escritório de advocacia",
   "author": "Alexandre Santos",
-  "scripts": {
-    "server": "json-server server.json",
-    "build": "webpack",
-    "dev": "webpack serve",
+  "scripts": {    
     "start": "node server.js"
   },
   "dependencies": {
