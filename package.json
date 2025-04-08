@@ -2,8 +2,10 @@
   "name": "rkmsolucoesjuridicas",
   "description": "LandPage de para divulgação de um escritório de advocacia",
   "author": "Alexandre Santos",
-  "scripts": {    
-    "start": "node server.js"
+  "scripts": {
+    "start": "node server.js",
+    "server": "json-server server.json"
+    
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.0.6",
@@ -11,20 +13,7 @@
     "dotenv": "^16.4.7",
     "express": "^5.1.0",
     "json-server": "^1.0.0-beta.3",
-    "tailwindcss": "^4.0.6",
-    "webpack-dev-server": "^5.2.1"
-  },
-  "devDependencies": {
-    "copy-webpack-plugin": "^13.0.0",
-    "css-loader": "^7.1.2",
-    "html-webpack-plugin": "^5.6.3",
-    "style-loader": "^4.0.0",
-    "webpack": "^5.98.0",
-    "webpack-cli": "^6.0.1"
-  },
-  "version": "1.0.0",
-  "main": "webpack.config.js",
-  "keywords": [],
-  "license": "ISC",
-  "type": "commonjs"
+    "tailwindcss": "^4.0.6"
+  }
+  
 }
